@@ -31,10 +31,8 @@ const Navbar = () => {
                 Our Services
               </Link>
             </li>
-            <button className={styles.login}>
-              <Link to="/" style={{ textDecoration: "none" }}>
+            <button className={styles.login} href="/">
                 LOGIN
-              </Link>
             </button>
           </div>
         </ul>

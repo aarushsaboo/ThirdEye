@@ -4,4 +4,32 @@
     background: #F3E6E2;
     margin: 0;
     padding: 0;
+    z-index: 2;
+}
+
+/*--- svg container---*/
+.svgContainer{
+    position: relative;
+    z-index: 5;
+}
+
+.outermost{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.middle{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.innermost{
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

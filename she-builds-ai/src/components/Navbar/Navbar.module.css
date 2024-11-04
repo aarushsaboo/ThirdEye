@@ -2,38 +2,72 @@
   margin: 24px 84px 0 54px;
   padding: 10px 30px;
   position: fixed;
-  width: 100%;
   /* design styles */
   border-radius: 10px;
-background: rgba(255, 255, 255, 0.20);
-backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(25px);
+  z-index: 1000;
 }
 
 .navbar ul {
+  list-style-type: none;
+  margin: 0;
   display: flex;
   flex-direction: row;
-  list-style-type: none;
-  padding-bottom: 8px;
-  margin: 0;
-/*flex styles */
-  display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-align: center;
 }
 
 /* headings */
-.navHeading1 a{
-    color: #D52700;
-    font-family: "M.F. Plexus Italic";
-    font-size: 76px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 54px; /* 71.053% */
+.navHeading1 a {
+  color: #d52700;
+  font-family: "M.F. Plexus Italic";
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 54px; /* 71.053% */
+  padding-right: 548px;
+  text-align: center;
 }
 
-.flexContainer{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    gap: 30px;
+/* rest of the headings */
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 18px;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexContainer .home a, .about a, .contact a, .services a{
+    color: #FFF;
+    font-family: Anta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 300% */
+}
+
+.login{
+  display: flex;
+  width: 93px;
+  height: 33px;
+  padding: 0px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border:none;
+}
+
+@media screen and (max-width: 1509px){
+  .navHeading1 a {
+    margin-right: auto; /* This pushes other elements to the right */
+    /* or use flex properties on the parent */
+    flex: 0 0 auto;
+    padding-right: 300px;
+}
 }
