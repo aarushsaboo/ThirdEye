@@ -5,9 +5,38 @@ const Navbar = () => {
     return (
       <div className={styles.navbar}>
         <ul>
-          <li className={styles.navLogo}>
-            <Link to="/">TR-T</Link>
+          <li className={styles.navHeading1}>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              TR-T
+            </Link>
           </li>
+          <div className={styles.flexContainer}>
+            <li className={styles.home}>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Home
+              </Link>
+            </li>
+            <li className={styles.about}>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                About Us
+              </Link>
+            </li>
+            <li className={styles.contact}>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Contact Us
+              </Link>
+            </li>
+            <li className={styles.services}>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Our Services
+              </Link>
+            </li>
+            <button className={styles.login}>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                LOGIN
+              </Link>
+            </button>
+          </div>
         </ul>
       </div>
     )

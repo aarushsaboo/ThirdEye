@@ -1,19 +1,39 @@
-.navbar{
-    margin: 24px 84px 0 54px;
-    padding: 20px 15px 20px 30px;
-    display: flex;
-
+.navbar {
+  margin: 24px 84px 0 54px;
+  padding: 10px 30px;
+  position: fixed;
+  width: 100%;
+  /* design styles */
+  border-radius: 10px;
+background: rgba(255, 255, 255, 0.20);
+backdrop-filter: blur(25px);
 }
 
-.navLogo{
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-bottom: 8px;
+  margin: 0;
+/*flex styles */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* headings */
+.navHeading1 a{
     color: #D52700;
-font-family: "M.F. Plexus Italic";
-font-size: 76px;
-font-style: normal;
-font-weight: 900;
-line-height: 54px; /* 71.053% */
+    font-family: "M.F. Plexus Italic";
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 54px; /* 71.053% */
 }
 
-.navbar ul li{
-    list-style-type: none;
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 30px;
 }
