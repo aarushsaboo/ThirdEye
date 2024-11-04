@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="file"] {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Face Recognition App</h1>
+    <form id="uploadForm"   action="/upload" method="POST" enctype='multipart/form-data'>
+        <input type="file" id="imageInput" accept=".jpg, .jpeg, .png" name="file">
+        <button type="submit">Upload and Recognize</button>
+    </form>
+
+    <div id="resultDiv"></div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+            fetch('/upload', {method: 'POST', body: formData})
+                .then(response => response.json())
+                .then(data => {
+                    if ('error' in data) {
+                        alert(data.error);
+                    } else {
+                        var resultHtml = `<h2>Results:</h2>`;
+                        resultHtml += `<p>Filename: ${data.filename}</p>`;
+                        resultHtml += `<p>Recognized Names: ${data.recognized_names.join(', ')}</p>`;
+                        document.getElementById('resultDiv').innerHTML = resultHtml;
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

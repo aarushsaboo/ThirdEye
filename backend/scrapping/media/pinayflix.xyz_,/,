@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="icon" href="
+https://pinayflix.xyz/wp-content/uploads/2024/03/favicon.png">
+
+<!-- Meta social networks -->
+
+<!-- Temp Style -->
+	<style>
+		#page {
+			max-width: 1300px;
+			margin: 10px auto;
+			background: rgba(0,0,0,0.85);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+			-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+			-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+		}
+	</style>
+<style>
+	.post-thumbnail {
+		padding-bottom: 56.25%;
+	}
+	.post-thumbnail .wpst-trailer,
+	.post-thumbnail img {
+		object-fit: fill;
+	}
+
+	.video-debounce-bar {
+		background: #A00000!important;
+	}
+
+			
+			#site-navigation {
+			background: #222222;
+		}
+	
+	.site-title a {
+		font-family: Open Sans;
+		font-size: 36px;
+	}
+	.site-branding .logo img {
+		max-width: 300px;
+		max-height: 120px;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	a,
+	.site-title a i,
+	.thumb-block:hover .rating-bar i,
+	.categories-list .thumb-block:hover .entry-header .cat-title:before,
+	.required,
+	.like #more:hover i,
+	.dislike #less:hover i,
+	.top-bar i:hover,
+	.main-navigation .menu-item-has-children > a:after,
+	.menu-toggle i,
+	.main-navigation.toggled li:hover > a,
+	.main-navigation.toggled li.focus > a,
+	.main-navigation.toggled li.current_page_item > a,
+	.main-navigation.toggled li.current-menu-item > a,
+	#filters .filters-select:after,
+	.morelink i,
+	.top-bar .membership a i,
+	.thumb-block:hover .photos-count i {
+		color: #A00000;
+	}
+	button,
+	.button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	.label,
+	.pagination ul li a.current,
+	.pagination ul li a:hover,
+	body #filters .label.secondary.active,
+	.label.secondary:hover,
+	.main-navigation li:hover > a,
+	.main-navigation li.focus > a,
+	.main-navigation li.current_page_item > a,
+	.main-navigation li.current-menu-item > a,
+	.widget_categories ul li a:hover,
+	.comment-reply-link,
+	a.tag-cloud-link:hover,
+	.template-actors li a:hover {
+		border-color: #A00000!important;
+		background-color: #A00000!important;
+	}
+	.rating-bar-meter,
+	.vjs-play-progress,
+	#filters .filters-options span:hover,
+	.bx-wrapper .bx-controls-direction a,
+	.top-bar .social-share a:hover,
+	.thumb-block:hover span.hd-video,
+	.featured-carousel .slide a:hover span.hd-video,
+	.appContainer .ctaButton {
+		background-color: #A00000!important;
+	}
+	#video-tabs button.tab-link.active,
+	.title-block,
+	.widget-title,
+	.page-title,
+	.page .entry-title,
+	.comments-title,
+	.comment-reply-title,
+	.morelink:hover {
+		border-color: #A00000!important;
+	}
+
+	/* Small desktops ----------- */
+	@media only screen  and (min-width : 64.001em) and (max-width : 84em) {
+		#main .thumb-block {
+			width: 20%!important;
+		}
+	}
+
+	/* Desktops and laptops ----------- */
+	@media only screen  and (min-width : 84.001em) {
+		#main .thumb-block {
+			width: 20%!important;
+		}
+	}
+
+</style>
+
+<!-- Google Analytics -->
+
+<!-- Meta Verification -->
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v23.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>PinayFlix</title>
+	<meta name="description" content="PinayFlix is the most popular Pinay Porn Site in the Philippines. Watch the latest popular trending and Pinay Sex Scandals Video only on PinayFlix." />
+	<link rel="canonical" href="https://pinayflix.xyz/" />
+	<link rel="next" href="https://pinayflix.xyz/page/2/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="PinayFlix" />
+	<meta property="og:description" content="PinayFlix is the most popular Pinay Porn Site in the Philippines. Watch the latest popular trending and Pinay Sex Scandals Video only on PinayFlix." />
+	<meta property="og:url" content="https://pinayflix.xyz/" />
+	<meta property="og:site_name" content="PinayFlix" />
+	<meta property="og:image" content="https://pinayflix.xyz/wp-content/uploads/2024/03/pinayflix.png" />
+	<meta property="og:image:width" content="1899" />
+	<meta property="og:image:height" content="886" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://pinayflix.xyz/","url":"https://pinayflix.xyz/","name":"PinayFlix","isPartOf":{"@id":"https://pinayflix.xyz/#website"},"about":{"@id":"https://pinayflix.xyz/#organization"},"description":"PinayFlix is the most popular Pinay Porn Site in the Philippines. Watch the latest popular trending and Pinay Sex Scandals Video only on PinayFlix.","breadcrumb":{"@id":"https://pinayflix.xyz/#breadcrumb"},"inLanguage":"en-GB"},{"@type":"BreadcrumbList","@id":"https://pinayflix.xyz/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://pinayflix.xyz/#website","url":"https://pinayflix.xyz/","name":"PinayFlix","description":"","publisher":{"@id":"https://pinayflix.xyz/#organization"},"alternateName":"PinayFlix","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://pinayflix.xyz/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https://pinayflix.xyz/#organization","name":"PinayFlix","url":"https://pinayflix.xyz/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://pinayflix.xyz/#/schema/logo/image/","url":"https://pinayflix.xyz/wp-content/uploads/2024/03/Main-Logo.png","contentUrl":"https://pinayflix.xyz/wp-content/uploads/2024/03/Main-Logo.png","width":4254,"height":918,"caption":"PinayFlix"},"image":{"@id":"https://pinayflix.xyz/#/schema/logo/image/"}}]}</script>
+	<meta name="google-site-verification" content="lDl5RmudiRfMDkoEA6pBPx0C-lwD2s6rpOu0bxu5eQg" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="PinayFlix &raquo; Feed" href="https://pinayflix.xyz/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PinayFlix &raquo; Comments Feed" href="https://pinayflix.xyz/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pinayflix.xyz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://pinayflix.xyz/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpst-font-awesome-css' href='https://pinayflix.xyz/wp-content/themes/retrotube/assets/stylesheets/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpst-style-css' href='https://pinayflix.xyz/wp-content/themes/retrotube/style.css?ver=1.7.6.1724020200' type='text/css' media='all' />
+<script type="text/javascript" src="https://pinayflix.xyz/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://pinayflix.xyz/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pinayflix.xyz/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel="icon" href="https://pinayflix.xyz/wp-content/uploads/2024/03/favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://pinayflix.xyz/wp-content/uploads/2024/03/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://pinayflix.xyz/wp-content/uploads/2024/03/favicon.png" />
+<meta name="msapplication-TileImage" content="https://pinayflix.xyz/wp-content/uploads/2024/03/favicon.png" />
+</head>
+
+<body
+class="home blog wp-embed-responsive group-blog hfeed">
+<div id="page">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+
+		
+		<div class="site-branding row">
+			<div class="logo">
+									<a href="https://pinayflix.xyz/" rel="home" title="PinayFlix"><img src="
+										https://pinayflix.xyz/wp-content/uploads/2024/03/Main-Logo.png					" alt="PinayFlix"></a>
+				
+									<p class="site-description">
+											</p>
+							</div>
+							<div class="header-search ">
+    <form method="get" id="searchform" action="https://pinayflix.xyz/">        
+                    <input class="input-group-field" value="Search..." name="s" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" type="text" />
+                
+        <input class="button fa-input" type="submit" id="searchsubmit" value="&#xf002;" />        
+    </form>
+</div>								</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation
+		" role="navigation">
+			<div id="head-mobile"></div>
+			<div class="button-nav"></div>
+			<ul id="menu-main-menu" class="row"><li id="menu-item-11" class="home-icon menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11"><a href="https://pinayflix.xyz" aria-current="page">Home</a></li>
+<li id="menu-item-12" class="cat-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="https://pinayflix.xyz/categories/">Categories</a></li>
+<li id="menu-item-14" class="star-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://pinayflix.xyz/actors/">Actors</a></li>
+<li id="menu-item-2354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2354"><a href="https://pinayflix.xyz/our-partners/">Our Partners</a></li>
+<li id="menu-item-2787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2787"><a target="_blank" rel="noopener" href="https://pinaypie.co/">PinayPie</a></li>
+</ul>		</nav><!-- #site-navigation -->
+
+		<div class="clear"></div>
+
+					<div class="happy-header-mobile">
+				<script data-cfasync="false" type="text/javascript" src="//bullionglidingscuttle.com/lv/esnk/1999130/code.js" async class="__clb-1999130"></script>			</div>
+			</header><!-- #masthead -->
+
+	
+	
+	<div id="content" class="site-content row">
+
+	<div id="primary" class="content-area ">
+		<main id="main" class="site-main " role="main">
+
+		
+				<header class="page-header">
+					<h2 class="widget-title">Latest videos</h2>
+					    <div id="filters">        
+        <div class="filters-select"><i class="fa fa-filter"></i>            <div class="filters-options">
+                                	
+                    <span><a class="active" href="/?filter=latest">Latest videos</a></span>
+                                        <span><a class="" href="/?filter=longest">Longest videos</a></span>			
+                    			
+                    <span><a class="" href="/?filter=random">Random videos</a></span>	
+                            </div>
+        </div>
+    </div>
+				</header><!-- .page-header -->
+
+				<div class="videos-list">
+					
+<article data-video-uid="1" data-post-id="3012" class="loop-video thumb-block full-width post-3012 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorised">
+	<a href="https://pinayflix.xyz/walang-takas-ang-eabab-ko-na-maangas/" title="Walang takas ang eabab ko na maangas">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/08/Walang-takas-ang-eabab-ko-na-maangas.jpg" alt="Walang takas ang eabab ko na maangas"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>04:22</span>		</div>
+				<header class="entry-header">
+			<span>Walang takas ang eabab ko na maangas</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="2" data-post-id="3009" class="loop-video thumb-block full-width post-3009 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorised">
+	<a href="https://pinayflix.xyz/salsalero-ko-na-pinsan-pinapa-isa-ko-pa-minsan-minsan/" title="Salsalero ko na Pinsan pinapa isa ko pa minsan minsan">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/08/Salsalero-ko-na-Pinsan-pinapa-isa-ko-pa-minsan-minsan.jpg" alt="Salsalero ko na Pinsan pinapa isa ko pa minsan minsan"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>03:43</span>		</div>
+				<header class="entry-header">
+			<span>Salsalero ko na Pinsan pinapa isa ko pa minsan minsan</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="3" data-post-id="3006" class="loop-video thumb-block full-width post-3006 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorised">
+	<a href="https://pinayflix.xyz/pinaisa-ang-isang-random-fan/" title="Pinaisa ang isang random fan">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/08/Pinaisa-ang-isang-random-fan.jpg" alt="Pinaisa ang isang random fan"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>09:22</span>		</div>
+				<header class="entry-header">
+			<span>Pinaisa ang isang random fan</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="4" data-post-id="3003" class="loop-video thumb-block full-width post-3003 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorised">
+	<a href="https://pinayflix.xyz/lupet-mo-camille-kumakain-ka-pala-ng-cum/" title="Lupet mo Camille kumakain ka pala ng Cum">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/08/Lupet-mo-Camille-kumakain-ka-pala-ng-Cum.jpg" alt="Lupet mo Camille kumakain ka pala ng Cum"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>04:02</span>		</div>
+				<header class="entry-header">
+			<span>Lupet mo Camille kumakain ka pala ng Cum</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="5" data-post-id="3000" class="loop-video thumb-block full-width post-3000 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorised">
+	<a href="https://pinayflix.xyz/isang-pops-pagkatapos-ifuck/" title="Isang pops pagkatapos ifuck">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/08/Isang-pops-pagkatapos-ifuck.jpg" alt="Isang pops pagkatapos ifuck"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>06:36</span>		</div>
+				<header class="entry-header">
+			<span>Isang pops pagkatapos ifuck</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="6" data-post-id="2975" class="loop-video thumb-block full-width post-2975 post type-post status-publish format-standard has-post-thumbnail hentry category-amateur category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/pinutukan-ang-lagusan/" title="Pinutukan ang lagusan">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Pinutukan-ang-lagusan.jpg" alt="Pinutukan ang lagusan"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>03:29</span>		</div>
+				<header class="entry-header">
+			<span>Pinutukan ang lagusan</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="7" data-post-id="2971" class="loop-video thumb-block full-width post-2971 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/flight-attendant-dinala-sa-rurok-ng-tagumapy/" title="Flight attendant dinala sa rurok ng tagumpay">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Flight-attendant-dinala-sa-rurok-ng-tagumapy.jpg" alt="Flight attendant dinala sa rurok ng tagumpay"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>08:03</span>		</div>
+				<header class="entry-header">
+			<span>Flight attendant dinala sa rurok ng tagumpay</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="8" data-post-id="2969" class="loop-video thumb-block full-width post-2969 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-couple category-facial category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/tuwad-ang-inabot-ng-katrabahong-malikot/" title="Tuwad ang inabot ng katrabahong malikot">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Tuwad-ang-inabot-ng-katrabahong-malibog.jpg" alt="Tuwad ang inabot ng katrabahong malikot"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>04:14</span>		</div>
+				<header class="entry-header">
+			<span>Tuwad ang inabot ng katrabahong malikot</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="9" data-post-id="2962" class="loop-video thumb-block full-width post-2962 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-blowjob category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/kakaibang-posisyon-ang-gusto-ni-ion/" title="Kakaibang posisyon ang gusto ni Ion">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Kakaibang-posisyon-ang-gusto-ni-Ion.jpg" alt="Kakaibang posisyon ang gusto ni Ion"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>07:11</span>		</div>
+				<header class="entry-header">
+			<span>Kakaibang posisyon ang gusto ni Ion</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="10" data-post-id="2960" class="loop-video thumb-block full-width post-2960 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-masturbation category-pinay">
+	<a href="https://pinayflix.xyz/miss-u-more/" title="Miss u more">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Miss-u-more.jpg" alt="Miss u more"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>01:47</span>		</div>
+				<header class="entry-header">
+			<span>Miss u more</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="11" data-post-id="2955" class="loop-video thumb-block full-width post-2955 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-masturbation category-pinay">
+	<a href="https://pinayflix.xyz/patikim-naman-ng-katas-mo/" title="Patikim naman ng katas mo">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Patikim-naman-ng-katas-mo.jpg" alt="Patikim naman ng katas mo"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>02:08</span>		</div>
+				<header class="entry-header">
+			<span>Patikim naman ng katas mo</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="12" data-post-id="2951" class="loop-video thumb-block full-width post-2951 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-compilation category-pinay">
+	<a href="https://pinayflix.xyz/thicc-na-kapitbahay-walang-habas-na-kinatot-ng-tambay/" title="Thicc na kapitbahay walang habas na kinatot ng tambay">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Thicc-na-kapitbahay-walang-habas-na-kinatot-ng-tambay.jpg" alt="Thicc na kapitbahay walang habas na kinatot ng tambay"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>01:57</span>		</div>
+				<header class="entry-header">
+			<span>Thicc na kapitbahay walang habas na kinatot ng tambay</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="13" data-post-id="2949" class="loop-video thumb-block full-width post-2949 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/lastiko-ang-sagot-sa-taong-mabilis-labasan/" title="Lastiko ang sagot sa taong mabilis labasan">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Lastiko-ang-sagot-sa-taong-mabilis-labasan.jpg" alt="Lastiko ang sagot sa taong mabilis labasan"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>02:06</span>		</div>
+				<header class="entry-header">
+			<span>Lastiko ang sagot sa taong mabilis labasan</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="14" data-post-id="2947" class="loop-video thumb-block full-width post-2947 post type-post status-publish format-standard has-post-thumbnail hentry category-masturbation category-nude category-pinay">
+	<a href="https://pinayflix.xyz/nilagyan-nang-pampadulas-para-swabe-lang/" title="Nilagyan nang pampadulas para swabe lang">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Nilagyan-nang-pampadulas-para-swabe-lang.jpg" alt="Nilagyan nang pampadulas para swabe lang"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>04:11</span>		</div>
+				<header class="entry-header">
+			<span>Nilagyan nang pampadulas para swabe lang</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="15" data-post-id="2940" class="loop-video thumb-block full-width post-2940 post type-post status-publish format-standard has-post-thumbnail hentry category-amateur category-pinay category-public">
+	<a href="https://pinayflix.xyz/special-project-ni-teacher-sa-kanyang-estudyante/" title="Special project ni teacher sa kanyang estudyante">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Special-project-ni-teacher-sa-kanyang-estudyante.jpg" alt="Special project ni teacher sa kanyang estudyante"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>04:31</span>		</div>
+				<header class="entry-header">
+			<span>Special project ni teacher sa kanyang estudyante</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="16" data-post-id="2935" class="loop-video thumb-block full-width post-2935 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/hinila-ni-dodong-ang-utong/" title="Hinila ni dodong ang utong">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Hinila-ni-dodong-ang-utong.jpg" alt="Hinila ni dodong ang utong"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>01:16</span>		</div>
+				<header class="entry-header">
+			<span>Hinila ni dodong ang utong</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="17" data-post-id="2933" class="loop-video thumb-block full-width post-2933 post type-post status-publish format-standard has-post-thumbnail hentry category-amateur category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/dahil-bagong-hugas-ka-sisisirin-ko-yan/" title="Dahil bagong hugas ka sisisirin ko yan">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Dahil-bagong-hugas-ka-sisisirin-ko-yan.jpg" alt="Dahil bagong hugas ka sisisirin ko yan"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>03:33</span>		</div>
+				<header class="entry-header">
+			<span>Dahil bagong hugas ka sisisirin ko yan</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="18" data-post-id="2923" class="loop-video thumb-block full-width post-2923 post type-post status-publish format-standard has-post-thumbnail hentry category-masturbation category-pinay category-shower">
+	<a href="https://pinayflix.xyz/suled-ang-katawan-ni-joan/" title="Suled ang katawan ni Joan">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Suled-ang-katawan-ni-Joan.jpg" alt="Suled ang katawan ni Joan"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>03:40</span>		</div>
+				<header class="entry-header">
+			<span>Suled ang katawan ni Joan</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="19" data-post-id="2921" class="loop-video thumb-block full-width post-2921 post type-post status-publish format-standard has-post-thumbnail hentry category-masturbation category-nude category-pinay">
+	<a href="https://pinayflix.xyz/jowain-moko-te-para-mabilhan-kita-ng-bagong-panty-2/" title="Jowain moko te para mabilhan kita ng bagong panty">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Jowain-moko-te-para-mabilhan-kita-ng-bagong-panty.jpg" alt="Jowain moko te para mabilhan kita ng bagong panty"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>02:37</span>		</div>
+				<header class="entry-header">
+			<span>Jowain moko te para mabilhan kita ng bagong panty</span>
+		</header>
+	</a>
+</article>
+
+<article data-video-uid="20" data-post-id="2918" class="loop-video thumb-block full-width post-2918 post type-post status-publish format-standard has-post-thumbnail hentry category-big-boobs category-couple category-homemade category-pinay">
+	<a href="https://pinayflix.xyz/thicc-pinay-auto-tuwad-sa-tambay/" title="Thicc pinay auto tuwad sa tambay">
+		<div class="post-thumbnail">
+						<div class="post-thumbnail-container"><img width="300" height="168.75" data-src="https://pinayflix.xyz/wp-content/uploads/2024/05/Thicc-pinay-auto-tuwad-sa-tambay.jpg" alt="Thicc pinay auto tuwad sa tambay"></div>			<span class="hd-video">HD</span>						<span class="duration"><i class="fa fa-clock-o"></i>02:45</span>		</div>
+				<header class="entry-header">
+			<span>Thicc pinay auto tuwad sa tambay</span>
+		</header>
+	</a>
+</article>
+				</div>
+
+				<div class="pagination"><ul><li><a class="current">1</a></li><li><a href="https://pinayflix.xyz/page/2/" class="inactive">2</a></li><li><a href="https://pinayflix.xyz/page/3/" class="inactive">3</a></li><li><a href="https://pinayflix.xyz/page/4/" class="inactive">4</a></li><li><a href="https://pinayflix.xyz/page/5/" class="inactive">5</a></li><li><a href="https://pinayflix.xyz/page/2/">Next</a></li><li><a href='https://pinayflix.xyz/page/64/'>Last</a></li></ul></div>
+		<div class="clear"></div>
+
+						<h1 class="widget-title">PinayFlix</h1>
+								<p class="archive-description">PinayFlix is the most popular Pinay Porn Site in the Philippines. Watch the latest popular trending and Pinay Sex Scandals Video only on PinayFlix.</p>
+				
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+</div><!-- #content -->
+
+<footer id="colophon" class="site-footer
+	br-bottom-10" role="contentinfo">
+	<div class="row">
+						
+		<div class="clear"></div>
+
+		
+					<div class="footer-menu-container">
+				<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-2360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2360"><a href="https://pinayflix.xyz/2577-statement/">2577 Statement</a></li>
+<li id="menu-item-2356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2356"><a href="https://pinayflix.xyz/contact-us/">Contact Us</a></li>
+<li id="menu-item-2361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2361"><a href="https://pinayflix.xyz/sitemap_index.xml">Sitemap</a></li>
+</ul></div>			</div>
+		
+					<div class="site-info">
+				Disclaimer: This website is not affiliated with any other Philippines or Asian Adult Site. We do not keep any files on our server. We only index and link to content provided by other websites. We do not claim ownership of any of the videos on this website. If you have any concerns or takedown requests, please contact us (we respond to all video takedown requests). All models and artists depicted herein were at least 18 years old at the time of photography and/or filming. We do not condone, post, or promote any type of child pornography.
+
+<br><br>
+All rights reserved. Powered by PinayFlix - PinayFlix TV - PinayFlix.me - PinayFlix.vip - PinayFlix1.tv - PinayPie.me - PinaYum.org			</div><!-- .site-info -->
+			</div>
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<a class="button" href="#" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up"></i></a>
+
+		<div class="modal fade wpst-user-modal" id="wpst-user-modal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" data-active-tab="">
+				<div class="modal-content">
+					<div class="modal-body">
+					<a href="#" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-remove"></i></a>
+						<!-- Register form -->
+						<div class="wpst-register">	
+													 
+								<h3>Join PinayFlix</h3>									
+
+								<form id="wpst_registration_form" action="https://pinayflix.xyz/" method="POST">
+
+									<div class="form-field">
+										<label>Username</label>
+										<input class="form-control input-lg required" name="wpst_user_login" type="text"/>
+									</div>
+									<div class="form-field">
+										<label for="wpst_user_email">Email</label>
+										<input class="form-control input-lg required" name="wpst_user_email" id="wpst_user_email" type="email"/>
+									</div>
+									<div class="form-field">
+										<label for="wpst_user_pass">Password</label>
+										<input class="form-control input-lg required" name="wpst_user_pass" type="password"/>
+									</div>
+																		<div class="form-field">
+										<input type="hidden" name="action" value="wpst_register_member"/>
+										<button class="btn btn-theme btn-lg" data-loading-text="Loading..." type="submit">Sign up</button>
+									</div>
+									<input type="hidden" id="register-security" name="register-security" value="0113856bff" /><input type="hidden" name="_wp_http_referer" value="/" />								</form>
+								<div class="wpst-errors"></div>
+													</div>
+
+						<!-- Login form -->
+						<div class="wpst-login">							 
+							<h3>Login to PinayFlix</h3>
+						
+							<form id="wpst_login_form" action="https://pinayflix.xyz/" method="post">
+
+								<div class="form-field">
+									<label>Username</label>
+									<input class="form-control input-lg required" name="wpst_user_login" type="text"/>
+								</div>
+								<div class="form-field">
+									<label for="wpst_user_pass">Password</label>
+									<input class="form-control input-lg required" name="wpst_user_pass" id="wpst_user_pass" type="password"/>
+								</div>
+								<div class="form-field lost-password">
+									<input type="hidden" name="action" value="wpst_login_member"/>
+									<button class="btn btn-theme btn-lg" data-loading-text="Loading..." type="submit">Login</button> <a class="alignright" href="#wpst-reset-password">Lost Password?</a>
+								</div>
+								<input type="hidden" id="login-security" name="login-security" value="0113856bff" /><input type="hidden" name="_wp_http_referer" value="/" />							</form>
+							<div class="wpst-errors"></div>
+						</div>
+
+						<!-- Lost Password form -->
+						<div class="wpst-reset-password">							 
+							<h3>Reset Password</h3>
+							<p>Enter the username or e-mail you used in your profile. A password reset link will be sent to you by email.</p>
+						
+							<form id="wpst_reset_password_form" action="https://pinayflix.xyz/" method="post">
+								<div class="form-field">
+									<label for="wpst_user_or_email">Username or E-mail</label>
+									<input class="form-control input-lg required" name="wpst_user_or_email" id="wpst_user_or_email" type="text"/>
+								</div>
+								<div class="form-field">
+									<input type="hidden" name="action" value="wpst_reset_password"/>
+									<button class="btn btn-theme btn-lg" data-loading-text="Loading..." type="submit">Get new password</button>
+								</div>
+								<input type="hidden" id="password-security" name="password-security" value="0113856bff" /><input type="hidden" name="_wp_http_referer" value="/" />							</form>
+							<div class="wpst-errors"></div>
+						</div>
+
+						<div class="wpst-loading">
+							<p><i class="fa fa-refresh fa-spin"></i><br>Loading...</p>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<span class="wpst-register-footer">Don&#039;t have an account? <a href="#wpst-register">Sign up</a></span>
+						<span class="wpst-login-footer">Already have an account? <a href="#wpst-login">Login</a></span>
+					</div>				
+				</div>
+			</div>
+		</div>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-content/themes/retrotube/assets/js/navigation.js?ver=1.0.0" id="wpst-navigation-js"></script>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-content/themes/retrotube/assets/js/jquery.bxslider.min.js?ver=4.2.15" id="wpst-carousel-js"></script>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-content/themes/retrotube/assets/js/jquery.touchSwipe.min.js?ver=1.6.18" id="wpst-touchswipe-js"></script>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-content/themes/retrotube/assets/js/lazyload.js?ver=1.0.0" id="wpst-lazyload-js"></script>
+<script type="text/javascript" id="wpst-main-js-extra">
+/* <![CDATA[ */
+var wpst_ajax_var = {"url":"https:\/\/pinayflix.xyz\/wp-admin\/admin-ajax.php","nonce":"1dd6787aae","ctpl_installed":"","is_mobile":"1"};
+var objectL10nMain = {"readmore":"Read more","close":"Close"};
+var options = {"thumbnails_ratio":"16\/9","enable_views_system":"off","enable_rating_system":"off"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-content/themes/retrotube/assets/js/main.js?ver=1.7.6.1724020200" id="wpst-main-js"></script>
+<script type="text/javascript" src="https://pinayflix.xyz/wp-content/themes/retrotube/assets/js/skip-link-focus-fix.js?ver=1.0.0" id="wpst-skip-link-focus-fix-js"></script>
+
+<!-- Other scripts -->
+
+<!-- Mobile scripts -->
+
+</body>
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 6.5.2 on 2024-11-04 08:55:44 -->
