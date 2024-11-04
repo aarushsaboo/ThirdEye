@@ -1,0 +1,15 @@
+.navbar{
+    margin: 24px 84px 0 54px;
+    padding: 20px 15px 20px 30px;
+    display: flex;
+
+}
+
+.navLogo{
+    color: #D52700;
+font-family: "M.F. Plexus Italic";
+font-size: 76px;
+font-style: normal;
+font-weight: 900;
+line-height: 54px; /* 71.053% */
+}
