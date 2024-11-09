@@ -1,16 +1,16 @@
 /*--- svg container---*/
 .svgContainer{
     position: relative;
-    z-index: 4;
-    padding-top: 200px;
+    z-index: 3;
+    padding-top: 600px;
 }
 
-.redSvg{
+.blackSvg{
     z-index: 2;
     position: absolute;
     width: 100%;
 }
 
-.redSvg svg{
+.blackSvg svg{
     width: 100%;
 }

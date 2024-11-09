@@ -8,7 +8,7 @@
   border-radius: 25px;
   background: #1d1534;
   width: 412px;
-  height: 344px; /* height and width will change based on the image */
+  height: 344px;
 }
 
 .card img{

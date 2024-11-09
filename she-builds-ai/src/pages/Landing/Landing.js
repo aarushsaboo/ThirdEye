@@ -9,6 +9,8 @@ import SvgContainer4 from './components/SvgContainer4';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import WhyUs from './components/WhyUs';
+import AboutUs from './components/AboutUs';
+import SvgContainer5 from './components/SvgContainer5';
 
 const LandingPage = () => {
     return (
@@ -21,6 +23,8 @@ const LandingPage = () => {
         <SvgContainer3 />
         <WhyUs />
         <SvgContainer4 />
+        <AboutUs />
+        <SvgContainer5 />
       </div>
     )
 };

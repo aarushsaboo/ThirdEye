@@ -10,14 +10,14 @@
   display: flex;
   width: 1295px;
   height: 578px;
-  padding: 20px 40px;
+  /* padding: 20px 40px; */
+  padding: 108px 65px 106px 65px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   border-radius: 25px;
   border: 6px solid #1d1534;
   /* scroll */
-  width: 100%;
   overflow: hidden;
 }
 

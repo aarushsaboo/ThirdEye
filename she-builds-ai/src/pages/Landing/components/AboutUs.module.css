@@ -1,0 +1,45 @@
+.whiteBoxContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 88;
+    gap: 17px;
+    padding-top: 282px;
+}
+
+.whiteBox{
+    border-radius: 25px;
+background: #F3E6E2;
+width: 427px;
+height: 489px;
+flex-shrink: 0;
+}
+
+.whiteBoxContainer .whiteBox:nth-of-type(2){
+    margin-top: 50.05px;
+}
+
+/* images */
+.imageContainer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 88;
+    margin-top: -282px;
+}
+
+.imageContainer img:nth-of-type(1){
+    position: absolute;
+    top: 50px;
+}
+
+.imageContainer img:nth-of-type(2){
+    position: absolute;
+    right: 350px;
+}
+
+.imageContainer img:nth-of-type(3){
+    position: absolute;
+    right: 320px;
+    top: 50px;
+}

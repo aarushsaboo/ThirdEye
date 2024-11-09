@@ -5,8 +5,8 @@ const SvgContainer3 = () => {
       <div className={styles.svgContainer}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="1512"
-          height="857"
+          width="1812"
+          height="1357"
           viewBox="0 0 1512 857"
                 fill="none"
                 className={styles.whiteSvg}
