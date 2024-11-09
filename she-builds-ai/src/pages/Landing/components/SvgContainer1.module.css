@@ -1,0 +1,24 @@
+/*--- svg container---*/
+.svgContainer{
+    position: relative;
+    z-index: 5;
+}
+
+.outermost{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+}
+
+.middle{
+    z-index: 3;
+    position: absolute;
+    right: 0;
+}
+
+.innermost{
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

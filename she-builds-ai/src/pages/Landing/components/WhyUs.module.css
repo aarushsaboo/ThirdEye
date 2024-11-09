@@ -1,0 +1,56 @@
+.whyUsContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  position: relative;
+  z-index: 99;
+}
+
+.whyUs {
+  display: flex;
+  width: 1295px;
+  height: 578px;
+  padding: 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 25px;
+  border: 6px solid #1d1534;
+  /* scroll */
+  width: 100%;
+  overflow: hidden;
+}
+
+/* heading */
+.whyUs .heading {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  width: 162px;
+}
+
+/* cards */
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: fit-content;
+  animation: 5s slide infinite linear;
+}
+
+/* carousel styles */
+@keyframes slide {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+.carousel{
+  width: 100%;
+  /* height: fit-content; */
+}

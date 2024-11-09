@@ -1,0 +1,14 @@
+/*--- svg container---*/
+.svgContainer{
+    position: relative;
+    z-index: 5;
+    padding-top: 270px;
+    /* overflow: hidden; */
+}
+
+.whiteSvg{
+    z-index: 2;
+    position: absolute;
+    /* right: 0; */
+    transform: scale(1.3);
+}

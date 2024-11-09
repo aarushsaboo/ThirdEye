@@ -1,0 +1,23 @@
+/*--- svg container---*/
+.svgContainer{
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.top{
+    z-index: 2;
+    /* position: absolute; */
+    left: 0;
+    transform: scale(1.1);
+}
+
+.bottom{
+    z-index: 3;
+    /* position: absolute; */
+    left: 0;
+    margin-top: -490px;
+    transform: scale(1.3);
+}
