@@ -5,9 +5,9 @@ const SvgContainer2 = () => {
     <div className={styles.svgContainer}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="1812"
-        height="1036"
-        viewBox="0 0 1512 1036"
+        width="2812"
+        height="1236"
+        viewBox="0 -60 1512 1036"
         fill="none"
         className={styles.top}
       >
@@ -19,8 +19,8 @@ const SvgContainer2 = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1812"
-        height="836"
-        viewBox="0 0 1512 836"
+        height="1036"
+        viewBox="0 200 1512 836"
         fill="none"
         className={styles.bottom}
       >

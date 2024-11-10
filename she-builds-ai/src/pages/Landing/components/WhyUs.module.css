@@ -17,8 +17,6 @@
   gap: 30px;
   border-radius: 25px;
   border: 6px solid #1d1534;
-  /* scroll */
-  overflow: hidden;
 }
 
 /* heading */
@@ -36,21 +34,4 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-  width: fit-content;
-  animation: 5s slide infinite linear;
-}
-
-/* carousel styles */
-@keyframes slide {
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-50%);
-  }
-}
-
-.carousel{
-  width: 100%;
-  /* height: fit-content; */
 }

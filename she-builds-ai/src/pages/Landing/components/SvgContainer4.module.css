@@ -2,7 +2,7 @@
 .svgContainer{
     position: relative;
     z-index: 4;
-    padding-top: 200px;
+    margin-top: 60px;
 }
 
 .redSvg{

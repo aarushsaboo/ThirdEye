@@ -2,7 +2,7 @@
 .svgContainer{
     position: relative;
     z-index: 3;
-    padding-top: 600px;
+    /* padding-top: 600px; */
 }
 
 .blackSvg{

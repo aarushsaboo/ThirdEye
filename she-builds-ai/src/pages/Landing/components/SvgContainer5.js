@@ -6,12 +6,12 @@ const SvgContainer5 = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1512"
-        height="609"
-        viewBox="0 0 1512 609"
-              fill="none"
-              className={styles.blackSvg}
+        height="1200"
+        viewBox="0 100 1512 900"
+        fill="none"
+        className={styles.blackSvg}
       >
-        <path d="M-52 0H1553V609H-52V0Z" fill="#1D1534" />
+        <path d="M-52 0H1553V1300H-52V0Z" fill="#1D1534" />
       </svg>
     </div>
   )
