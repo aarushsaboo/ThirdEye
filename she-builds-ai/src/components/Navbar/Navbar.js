@@ -1,7 +1,13 @@
 import styles from './Navbar.module.css'
 import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate(); 
+
+  const handleLoginClick = () => {
+    navigate('/login'); 
+  };
     return (
       <div className={styles.navbar}>
         <ul>
@@ -31,8 +37,8 @@ const Navbar = () => {
                 Our Services
               </Link>
             </li>
-            <button className={styles.login} href="/">
-                LOGIN
+            <button className={styles.login} onClick={handleLoginClick}>
+              LOGIN
             </button>
           </div>
         </ul>
