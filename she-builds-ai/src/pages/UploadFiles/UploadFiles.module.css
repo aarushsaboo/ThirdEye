@@ -1,0 +1,73 @@
+.uploadFiles{
+ background: #1D1534;
+  height: 112vh;
+  width: 100vw;
+}
+
+.photosLabel {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-family: "Florensa Demo";
+
+}
+
+.fileContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+
+/* upload container */
+.uploadContainer {
+  border-radius: 40px;
+border: 4px solid #F99443;
+display: inline-flex;
+
+justify-content: center;
+align-items: center;
+gap: 32px;
+}
+
+.uploadLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploadText {
+  color: #F99042;
+text-align: center;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 106.667% */
+letter-spacing: 12px;
+text-transform: uppercase;
+margin: 80px 96px;
+}
+
+/* file input */
+.uploadInput {
+  display: none;
+}
+
+
+/* animation image */
+.waveImage {
+  animation: wave-animation 5s infinite linear;
+  position: absolute;
+  z-index: 1000;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: translateX(-100%) translateY(0);
+  }
+  100% {
+    transform: translateX(100%) translateY(-100%);
+  }
+}
