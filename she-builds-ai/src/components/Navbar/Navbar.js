@@ -33,7 +33,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles.services}>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/uploadfiles" style={{ textDecoration: "none" }}>
                 Our Services
               </Link>
             </li>

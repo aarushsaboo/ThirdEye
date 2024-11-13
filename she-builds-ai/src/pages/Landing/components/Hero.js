@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <img src="/images/landing/loudspeaker-hero.png" alt="hero-section-img"></img>
+        <img src="/images/landing/loudspeaker-hero.webp" alt="hero-section-img"></img>
       </div>
     </div>
   )
