@@ -1,6 +1,14 @@
-.uploadFiles{
- background: #1D1534;
-  height: 112vh;
+.uploadSteps {
+  background: #1d1534;
+}
+
+.uploadStepOne {
+  height: 128vh;
+  width: 100vw;
+}
+
+.uploadStepTwo {
+  height: 100vh;
   width: 100vw;
 }
 
@@ -9,10 +17,9 @@
   font-weight: 600;
   margin-bottom: 8px;
   font-family: "Florensa Demo";
-
 }
 
-.fileContainer{
+.fileContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,31 +30,36 @@
 /* upload container */
 .uploadContainer {
   border-radius: 40px;
-border: 4px solid #F99443;
-display: inline-flex;
-
-justify-content: center;
-align-items: center;
-gap: 32px;
+  background-color: #1d1534;
+  border: 4px solid #f99443;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  position: relative; /* enables image to only be within container */
+  overflow: hidden;
 }
 
 .uploadLabel {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 80px 96px;
+  color: #f99042;
 }
 
-.uploadText {
-  color: #F99042;
-text-align: center;
-font-family: Poppins;
-font-size: 60px;
-font-style: normal;
-font-weight: 600;
-line-height: 64px; /* 106.667% */
-letter-spacing: 12px;
-text-transform: uppercase;
-margin: 80px 96px;
+/* colored layer */
+.textLayerColored {
+  color: #f99042; /* Set the color to hsl(200, 50%, 50%) */
+  text-align: center;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 64px; /* 106.667% */
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 3;
+  mix-blend-mode: difference; /* This will also invert the colors */
 }
 
 /* file input */
@@ -55,19 +67,81 @@ margin: 80px 96px;
   display: none;
 }
 
-
 /* animation image */
 .waveImage {
   animation: wave-animation 5s infinite linear;
   position: absolute;
-  z-index: 1000;
+  left: 0;
+  z-index: 2;
 }
 
 @keyframes wave-animation {
   0% {
-    transform: translateX(-100%) translateY(0);
+    transform: translateX(-130%) translateY(38%);
   }
   100% {
-    transform: translateX(100%) translateY(-100%);
+    transform: translateX(50%) translateY(-130%);
   }
+}
+
+/* finished svg */
+
+.uploadStepThree {
+  height: 100vh;
+  padding-top: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finishedContainer {
+  border-radius: 40px;
+  border: 4px solid #f99443;
+  background: #f99443;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 80px 96px;
+  max-width: 686px;
+  /* text */
+  color: #1d1534;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 106.667% */
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+/* finished svg */
+.finishedContainer p {
+  margin: 0;
+}
+
+/* no threat detected */
+.uploadStepFour {
+  height: 100vh;
+}
+.noThreatDetected {
+  display: flex;
+  padding: 80px 96px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 0 207px;
+}
+.noThreatDetected p {
+  color: #f99443;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 106.667% */
+  letter-spacing: 12px;
+  text-transform: uppercase;
 }

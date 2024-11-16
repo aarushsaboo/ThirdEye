@@ -1,0 +1,66 @@
+.container {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.textBox {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Base text layer */
+.textLayer {
+  color: black;
+  position: relative;
+  z-index: 1;
+  mix-blend-mode: darken;
+  /* background */ background-color: aqua;
+}
+
+/* Colored text layer */
+.textLayerColored {
+  color: red; /* Change this to your desired revealed color */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  mix-blend-mode: darken;
+  /* background */ background-color: azure;
+}
+
+/* Rectangle wrapper for animation */
+.rectangleWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transform: translateY(100%);
+}
+
+.animate {
+  animation: moveRectangle 5s forwards;
+}
+
+/* The actual rectangle */
+.rectangle {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+@keyframes moveRectangle {
+  0% {
+    transform: translateY(100%) translateX(-100%);
+  }
+  100% {
+    transform: translateY(-100%) translateX(0%);
+  }
+}
